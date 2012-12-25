@@ -13,9 +13,6 @@ dataurl = Replace (dataurl ,"Ş","s",1,-1,1)
 dataurl = Replace (dataurl ,"İ","i",1,-1,1)
 dataurl = Replace (dataurl ,"Ç","c",1,-1,1)
 dataurl = Replace (dataurl ,"Ö","o",1,-1,1)
-dataurl = Replace (dataurl ," - ","-",1,-1,1)
-dataurl = Replace (dataurl ," ","-",1,-1,1)
-dataurl = Replace (dataurl ,"/","-",1,-1,1)
 strUrlCevir=dataurl
 End Function
 %>
